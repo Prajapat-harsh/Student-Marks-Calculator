@@ -1,9 +1,9 @@
-
 def calculate_result(marks):
     total = sum(marks)
     percentage = total / len(marks)
 
-    print("Student Final Total Marks:", total)    print("Percentage:", percentage)
+    print("Student Final Total Marks:", total)
+    print("Percentage:", percentage)
 
     if percentage >= 40:
         print("Result: PASS")
