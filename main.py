@@ -3,7 +3,7 @@ def calculate_result(marks):
     total = sum(marks)
     percentage = total / len(marks)
 
-    print("Total Marks:", total)
+   print("Student Total:", total)
     print("Percentage:", percentage)
 
     if percentage >= 40:
